@@ -1,0 +1,4 @@
+Актуальные курсы валют:
+{% for currency, rate in rates.items() %}
+{{ currency }}: {{ rate }} RUB 
+{% endfor %}

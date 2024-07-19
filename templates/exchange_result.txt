@@ -1,0 +1,1 @@
+{{ amount }} {{ from_currency }} = {{ result }} {{ to_currency }}

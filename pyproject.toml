@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "Currency Exchange Bot"
+version = "1.0"
+description = ""
+authors = ["cyberlain <zachetnydrakon@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+aiogram = "^3.10.0"
+aiohttp = "^3.9.5"
+redis = "^5.0.7"
+aiocron = "^1.8"
+jinja2 = "^3.1.4"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
